@@ -130,28 +130,7 @@ export default function App() {
             cta={{ href: "https://github.com/Theblackgenius/laptop-market-analysis-dashboard" }}
           />
     
-          <ProjectCard
-            title="Customer Segmentation"
-            stack="Python • scikit-learn • pandas"
-            bullets={[
-              "Clustered five thousand plus customers to reveal high retention segments.",
-              "Built clean feature set and visuals to support marketing decisions.",
-              "Improved engagement with targeted strategies.",
-            ]}
-            cta={{ href: "#" }}
-          />
-
-          <ProjectCard
-            title="Sales Performance Dashboard"
-            stack="SQL • Tableau • Excel"
-            bullets={[
-              "Built a Tableau dashboard to visualise regional and product sales performance.",
-              "Connected SQL data sources and automated refresh schedules for live updates.",
-              "Revealed underperforming regions and products, driving a 10% improvement in quarterly profit."
-            ]}
-            cta={{ href: "#" }}
-          />
-
+         
         </div>
       </section>
 
@@ -161,7 +140,7 @@ export default function App() {
           <Card className="rounded-2xl">
             <CardContent className="p-6 space-y-3">
               <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-2">
-                <h3 className="text-lg font-semibold">Bolet Computer • Data Analyst Intern</h3>
+                <h3 className="text-lg font-semibold">Bolet Computers • Data Analyst Intern</h3>
                 <p className="text-sm text-muted-foreground">Jan 2026</p>
               </div>
               <ul className="text-sm space-y-2">
@@ -199,7 +178,7 @@ export default function App() {
           <a href="mailto:olanrewajutd@gmail.com">
             <Button className="gap-2"><Mail className="h-4 w-4" /> Mail</Button>
           </a>
-          <a href="tel:+447448113345">
+          <a href="tel:+2348094781500">
             <Button variant="secondary" className="gap-2"><Phone className="h-4 w-4" />Mobile</Button>
           </a>
           <a href="https://www.linkedin.com/in/tobisucre" target="_blank" rel="noreferrer">
